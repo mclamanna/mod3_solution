@@ -1,0 +1,44 @@
+body {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #ffffff;
+  font-family: "Oxygen", sans-serif;
+}
+
+#header-nav {
+  background-color: #f0ede4;
+}
+
+.brand {
+  font-family: "Lora", serif;
+  color: #000000;
+}
+
+.border-top {
+  width: 40rem;
+}
+
+@media (min-width: 769px) {
+  .frontPage {
+    background-image: url("https://via.placeholder.com/1850x350");
+    height: 350px;
+    box-shadow: 0 0 50px #342f31;
+    border: 6px solid #454ed2;
+  }
+}
+@media (min-width: 992px) {
+  .frontPage {
+    background-image: url("https://blue.usps.gov/blue/images/carousel/zoom-chat-banner_553x209.jpg");
+    height: 350px;
+    box-shadow: 0 0 50px #342f31;
+    border: 6px solid #097136;
+  }
+}
+@media (max-width: 768px) and (max-width: 991px) {
+  .frontPage {
+    background-image: url("https://via.placeholder.com/1850x350");
+    height: 350px;
+    background-size: no-repeat;
+    border: 10px solid #dbd271;
+  }
+}
